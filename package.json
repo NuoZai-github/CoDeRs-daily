@@ -1,0 +1,19 @@
+{
+  "name": "supabase-login-app",
+  "version": "1.0.0",
+  "description": "A web application with Supabase authentication",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server --port=3000",
+    "start": "live-server --port=3000"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "keywords": ["supabase", "authentication", "login", "web"],
+  "author": "",
+  "license": "MIT"
+}
