@@ -4,10 +4,10 @@
 
 export const supabaseConfig = {
     // 您的 Supabase 项目 URL
-    url: 'YOUR_SUPABASE_URL', // 例如: 'https://your-project.supabase.co'
+    url: 'https://nrzplyouhjzbeqvsnebq.supabase.co',
     
     // 您的 Supabase 匿名密钥 (anon key)
-    anonKey: 'YOUR_SUPABASE_ANON_KEY', // 例如: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...'
+    anonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5yenBseW91aGp6YmVxdnNuZWJxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTgwMTMwOTEsImV4cCI6MjA3MzU4OTA5MX0.z1a7xEGzn_DwXMN1kViYuqjhAYxKqmHiKJywBM9XqTQ',
 };
 
 // 使用说明:

@@ -34,13 +34,23 @@ export const supabaseConfig = {
 };
 ```
 
-### 3. 启用认证提供商（可选）
+### 3. 配置认证设置
 
+#### 设置回调 URL
+1. 进入 Supabase 控制台的 `Authentication` > `URL Configuration`
+2. 在 `Site URL` 中添加：`http://localhost:3000`
+3. 在 `Redirect URLs` 中添加以下 URL：
+   - `http://localhost:3000`
+   - `http://127.0.0.1:3000`
+   - `https://nrzplyouhjzbeqvsnebq.supabase.co/auth/v1/callback`
+
+#### 启用认证提供商（可选）
 如果要使用 Google 登录，需要在 Supabase 控制台中配置：
 
 1. 进入 `Authentication` > `Providers`
 2. 启用 Google 提供商
 3. 配置 Google OAuth 客户端 ID 和密钥
+4. 确保在 Google Cloud Console 中添加了正确的重定向 URI
 
 ### 4. 安装依赖并运行
 
